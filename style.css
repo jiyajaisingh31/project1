@@ -87,7 +87,7 @@ main
     display:flex;
     justify-content: space-around;
     align-items: center;
-    margin: 0px 150px;
+    margin: 100px 150px;
     flex-wrap: wrap;
 }
 main h2{
@@ -99,17 +99,24 @@ main p{
     font-weight: 200;
     line-height: 31px;
     margin:30px 0px 30px;
+    align-content: center;
 
 }
 .contentleft1
 {
     flex:1;
+    height:fit-content;
+    display:flex;
+
     justify-content:space-evenly;
+    padding:20px;
+    margin-top:0px 50px;
 }
 .contentmid1
 {
     flex:2;
     justify-content:space-evenly;
+    align-items: center;
 }
 .contentright1
 {
@@ -120,20 +127,26 @@ main p{
 .contentleft2
 {
     flex:1;
-    height: 90vh;
+    /* height:90vh; */
+    height:fit-content;
     display:flex;
-    justify-content: space-around;
-    align-items: center;
-    margin: 0px 150px;
-    flex-wrap: wrap;
+    justify-content: space-evenly;
+    /* align-items: center; */
+    margin: 150px 150px 150px;
+    flex-wrap: block; 
+    /* padding:20px; */
+    /* margin-top:50px 50px; */
 }
 .contentmid2
 {
     flex:2;
+    justify-content:space-between;
+    align-items: center;
 }
 .contentright2
 {
     flex:1;
+    justify-content:space-around;
 }
 .contentleft3
 {
@@ -143,17 +156,20 @@ main p{
     justify-content: space-around;
     align-items: center;
     margin: 0px 150px;
-    flex-wrap: wrap;
+   /* flex-wrap: wrap;*/ 
 }
 .contentmid3
 {
     flex:2;
+    justify-content:space-around;
+    align-items: center;
 }
 .contentright3
 {
     flex:1;
+    justify-content:space-around;
 }
-/*
+
 .contentleft4
 {
     flex:1;
@@ -162,16 +178,20 @@ main p{
     justify-content: space-around;
     align-items: center;
     margin: 0px 150px;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
 }
 .contentmid4
 {
     flex:2;
+    justify-content:space-around;
+    align-items: center;
 }
 .contentright4
 {
     flex:1;
+    justify-content:space-around;
 }
+
 .contentleft5
 {
     flex:1;
@@ -180,17 +200,19 @@ main p{
     justify-content: space-around;
     align-items: center;
     margin: 0px 150px;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
 }
 .contentmid5
 {
     flex:2;
+    align-items: center;
 }
 .contentright5
 {
     flex:1;
     margin :auto;
 }
+/*
 .contentleft6
 {
     flex:1;
